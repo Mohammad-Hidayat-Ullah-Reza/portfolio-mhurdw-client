@@ -1,7 +1,7 @@
 import React from "react";
-import laptopBazar from "../../../assets/img/laptop_bazar.jpg";
-import rezaTravelAgent from "../../../assets/img/reza_travel_agent.jpg";
-import rezaBrihi from "../../../assets/img/reza_brihi.jpg";
+import laptopBazar from "../../../assets/img/laptop_bazar/laptop_bazar.jpg";
+import rezaTravelAgent from "../../../assets/img/reza_travel_agent/reza_travel_agent.jpg";
+import rezaBrihi from "../../../assets/img/reza_brihi/reza_brihi.jpg";
 import ProjectCard from "./ProjectCard";
 
 const projectCardData = [
@@ -36,16 +36,18 @@ const projectCardData = [
 
 const ProjectsSection = () => {
   return (
-    <div className="p-10">
-      <h2 className="text-4xl font-bold m-3 text-center">Projects</h2>
+    <div id="projects" className="p-3 md:p-10">
+      <h2 className="text-3xl md:text-4xl font-bold m-3 mb-5 text-center">
+        Projects
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projectCardData.map((d) => (
           <ProjectCard key={d.id} data={d}></ProjectCard>
         ))}
       </div>
-      <div className="flex justify-center items-center mt-8">
-        <button className="btn btn-primary">Show All</button>
-      </div>
+      {/* <div className="flex justify-center items-center mt-8">
+        <button className="btn btn-primary">Show All Projects</button>
+      </div> */}
     </div>
   );
 };

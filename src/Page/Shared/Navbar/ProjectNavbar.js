@@ -2,7 +2,7 @@ import React from "react";
 import { FaFileDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const ProjectNavbar = () => {
   return (
     <div className="navbar bg-base-200 md:px-10">
       <div className="navbar-start">
@@ -28,15 +28,9 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#aboutMe">About Me</a>
+              <a href="/">Home</a>
             </li>
 
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
             <li>
               <Link to="/blog">Blog</Link>
             </li>
@@ -58,15 +52,9 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#aboutMe">About Me</a>
+            <a href="/">Home</a>
           </li>
 
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
           <li>
             <Link to="/blog">Blog</Link>
           </li>
@@ -94,4 +82,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default ProjectNavbar;

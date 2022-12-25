@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+    
+        "title": "Laptop Bazar",
+        "shortDesc": "buy or sell used laptops online",
+        "keyFeatures":{
+            "keyFeatures1":"Different dashboard for admin, buyer and seller.",
+            "keyFeatures2":"Seller can advertise his/her product and the product shows on the home page advertising section.",
+            "keyFeatures3":"Buyer can see his/her orders list."
+        },
+        "liveSite": "https://laptop-bazar-4e5fd.web.app/",
+        "github":
+          "https://github.com/Mohammad-Hidayat-Ullah-Reza/laptop_bazar-clients-repo"
+      },
+      {
+        "id": 2,
+      
+        "title": "Reza Travel Agent",
+        "shortDesc": "find your dream location for travelling",
+        "keyFeatures":{
+            "keyFeatures1":"Users can add and edit their reviews and see other's reviews.",
+            "keyFeatures2":"Users can add new services.",
+            "keyFeatures3":"Beautiful carousel on the home page."
+        },
+        "liveSite": "https://traveller-blog-asignment-11.web.app/",
+        "github":
+          "https://github.com/Porgramming-Hero-web-course/b6a11-service-review-client-side-Mohammad-Hidayat-Ullah-Reza"
+      },
+      {
+        "id": 3,
+      
+        "title": "Reza Brihi",
+        "shortDesc": "learn your desired programming skill",
+        "keyFeatures":{
+            "keyFeatures1":"Explore different programming courses.",
+            "keyFeatures2":"Download the pdf of course details.",
+            "keyFeatures3":"Beautiful UI."
+        },
+        "liveSite": "https://rezabrihi-3ef1c.web.app/",
+        "github":
+          "https://github.com/Mohammad-Hidayat-Ullah-Reza/reza_brihi-clients-repo"
+      }
+]
